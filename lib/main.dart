@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 
-import 'model/content.dart';
-import 'model/conversation.dart';
-import 'model/user.dart';
+import 'repository/local_datasource.dart';
+import 'repository/repository.dart';
+import 'repository/repository_impl.dart';
 
 void main() {
-  // Model layer test
-  final content = TextContent(text: 'Hello');
-  final message = Message(from: User.me, to: User.you, content: content);
-  final conversation = message.addDelay(1000);
-  debugPrint('Conversation delay: ${conversation.delayMs}ms');
+  // Repository layer test
+  final Repository repository = RepositoryImpl(LocalDataSource());
+  final conversations = repository.getAllConversations();
+  debugPrint('Loaded ${conversations.length} conversations');
 
   runApp(const MyApp());
 }
