@@ -1,6 +1,6 @@
 # 모바일 청첩장
 
-TBD 이미지
+![](https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/intro/intro.jpg)
 
 Flutter 기반 모바일 청첩장 프로젝트입니다.
 설정 파일 하나만 수정하면 나만의 청첩장을 만들 수 있습니다.
