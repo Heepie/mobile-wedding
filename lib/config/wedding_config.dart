@@ -64,14 +64,14 @@ class WeddingConfig {
 
   /// 웨딩 사진 (원격 URL)
   static const List<String> remoteWeddingImages = [
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_3.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_4.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_5.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_6.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_7.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_8.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_9.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/wedding/wedding_10.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_3.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_4.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_5.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_6.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_7.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_8.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_9.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/wedding/wedding_10.jpg',
   ];
 
   // ╔══════════════════════════════════════════════════════════╗
@@ -151,9 +151,9 @@ class WeddingConfig {
 
   /// 신랑 성장 사진 (원격 URL)
   static const List<String> remoteGroomHistoryImages = [
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/history/history_groom_3.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/history/history_groom_4.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/history/history_groom_5.jpeg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/history/history_groom_3.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/history/history_groom_4.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/history/history_groom_5.jpeg',
   ];
 
   /// 신랑 소개 메시지
@@ -174,9 +174,9 @@ class WeddingConfig {
 
   /// 신부 성장 사진 (원격 URL)
   static const List<String> remoteBrideHistoryImages = [
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/history/history_bride_2.jpeg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/history/history_bride_3.jpg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/history/history_bride_4.jpeg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/history/history_bride_2.jpeg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/history/history_bride_3.jpg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/history/history_bride_4.jpeg',
   ];
 
   /// 신부 소개 메시지
@@ -209,22 +209,22 @@ class WeddingConfig {
 
   /// 취미 영상 - 신부
   static const String hobbyBrideVideo =
-      'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/bobby_bride.mp4';
+      'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/bobby_bride.mp4';
   static const String hobbyBrideVideoThumbnail =
-      'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/hobby_bride_video_1.jpeg';
+      'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/hobby_bride_video_1.jpeg';
 
   /// 취미 영상 - 신랑
   static const String hobbyGroomVideo =
-      'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/bobby_groom.mp4';
+      'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/bobby_groom.mp4';
   static const String hobbyGroomVideoThumbnail =
-      'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/hobby_groom_video_1.jpeg';
+      'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/hobby_groom_video_1.jpeg';
 
   /// 취미 사진 (원격 URL)
   static const List<String> remoteHobbyImages = [
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/hobby_groom_1.jpeg',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/hobby_groom_2.png',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/hobby_bride_2.png',
-    'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/hobby/hobby_together_1.jpeg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/hobby_groom_1.jpeg',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/hobby_groom_2.png',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/hobby_bride_2.png',
+    'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/hobby/hobby_together_1.jpeg',
   ];
 
   /// 상대방 반응: 취미
@@ -257,7 +257,7 @@ class WeddingConfig {
 
   /// 공유 미리보기 이미지 URL
   static const String ogImage =
-      'https://raw.githubusercontent.com/Heepie/mobile-wedding/clean-history/sample/preview/preview.jpg';
+      'https://raw.githubusercontent.com/Heepie/mobile-wedding/master/sample/preview/preview.jpg';
 
   // ╔══════════════════════════════════════════════════════════╗
   // ║  미리 로딩할 이미지 (수정 불필요)                            ║
