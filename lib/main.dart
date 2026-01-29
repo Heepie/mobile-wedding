@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 import 'repository/local_datasource.dart';
-import 'repository/repository.dart';
 import 'repository/repository_impl.dart';
+import 'viewmodel/conversation_viewmodel.dart';
 
 void main() {
-  // Repository layer test
-  final Repository repository = RepositoryImpl(LocalDataSource());
-  final conversations = repository.getAllConversations();
-  debugPrint('Loaded ${conversations.length} conversations');
+  // ViewModel layer test
+  final repository = RepositoryImpl(LocalDataSource());
+  final viewModel = ConversationViewModel(repository);
+  debugPrint('ViewModel created, showAll: ${viewModel.showAllImmediately}');
 
   runApp(const MyApp());
 }
