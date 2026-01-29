@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 import 'model/content.dart';
+import 'model/conversation.dart';
 import 'model/user.dart';
 
 void main() {
   // Model layer test
-  const user = User.me;
   final content = TextContent(text: 'Hello');
-  debugPrint('User: $user, Content: $content');
+  final message = Message(from: User.me, to: User.you, content: content);
+  final conversation = message.addDelay(1000);
+  debugPrint('Conversation delay: ${conversation.delayMs}ms');
 
   runApp(const MyApp());
 }
