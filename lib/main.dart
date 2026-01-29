@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
 
+import 'model/content.dart';
+import 'model/user.dart';
+
 void main() {
+  // Model layer test
+  const user = User.me;
+  final content = TextContent(text: 'Hello');
+  debugPrint('User: $user, Content: $content');
+
   runApp(const MyApp());
 }
 
